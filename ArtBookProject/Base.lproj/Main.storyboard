@@ -71,7 +71,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UJ-Rf-n3x">
-                                <rect key="frame" x="115" y="707" width="162" height="82"/>
+                                <rect key="frame" x="115" y="717" width="162" height="82"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="82" id="go4-kM-uet"/>
                                 </constraints>
@@ -79,6 +79,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Save"/>
                                 <connections>
                                     <action selector="saveButton:" destination="F99-Fh-5Sr" eventType="touchUpInside" id="bwN-KA-k5x"/>
+                                    <action selector="saveButtonClicked:" destination="F99-Fh-5Sr" eventType="touchUpInside" id="uvS-F3-IRI"/>
                                 </connections>
                             </button>
                         </subviews>
